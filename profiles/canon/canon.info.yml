@@ -1,0 +1,6 @@
+name: Canon
+type: profile
+description: 'TopFloorTech default Drupal 8 installation profile.'
+core: 8.x
+distribution:
+  name: Canon

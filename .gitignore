@@ -57,3 +57,15 @@ Thumbs.db
 # Things in the core directory that Drupal 8 commits in the repository.
 !core/**/*.gz
 
+.stfolder
+.env
+.idea/workspace.xml
+drush/composer/vendor/composer/composer/tests/Composer/Test/Repository/Fixtures/artifacts/
+vendor/codegyre/robo/tests/_helpers/_generated/
+vendor/codegyre/robo/tests/_log/
+vendor/composer/composer/tests/Composer/Test/Repository/Fixtures/artifacts/
+vendor/guzzlehttp/guzzle/build/
+vendor/guzzlehttp/guzzle/docs/
+vendor/guzzlehttp/guzzle/tests/
+node_modules
+.eyeglass_cache

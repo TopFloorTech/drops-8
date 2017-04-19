@@ -1,44 +1,54 @@
 name: Canon
 type: profile
 description: 'TopFloorTech default Drupal 8 installation profile.'
+version: VERSION
 core: 8.x
-distribution:
-  name: Canon
 dependencies:
-  - node
-  - history
+  - automated_cron
   - block
   - breakpoint
   - ckeditor
-  - color
   - config
-  - comment
-  - contextual
   - contact
-  - menu_link_content
-  - datetime
+  - contextual
   - block_content
-  - quickedit
-  - editor
-  - help
-  - image
-  - menu_ui
-  - options
-  - path
-  - page_cache
-  - dynamic_page_cache
-  - taxonomy
+  - menu_link_content
   - dblog
+  - field
+  - field_ui
+  - filter
+  - help
+  - history
+  - dynamic_page_cache
+  - page_cache
+  - menu_ui
+  - node
+  - path
+  - quickedit
+  - rdf
   - search
   - shortcut
-  - toolbar
-  - field_ui
-  - file
-  - rdf
+  - system
+  - taxonomy
+  - editor
+  - update
+  - user
   - views
   - views_ui
-  - tour
-  - automated_cron
+  - content_moderation
+  - field_layout
+  - inline_form_errors
+  - layout_discovery
+  - block_place
+  - outside_in
+  - workflows
+  - datetime
+  - file
+  - image
+  - link
+  - options
+  - telephone
+  - text
 themes:
   - bartik
   - seven
